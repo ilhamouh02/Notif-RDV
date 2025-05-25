@@ -1,0 +1,355 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:2:1-67:12
+MERGED from [com.google.android.material:material:1.10.0] /home/ilham/.gradle/caches/transforms-4/d0d1a641f5d00bee582e8094ac0461e9/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ilham/.gradle/caches/transforms-4/0122f4a2b9fee2ad7dfaa44fa98070cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/ilham/.gradle/caches/transforms-4/fd30cc04480250cd28d8517c1057ba1a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/ilham/.gradle/caches/transforms-4/202e901c02a03f6157d6d322a31b4f6a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/ilham/.gradle/caches/transforms-4/2fda13bdb32d6353ab3672d78f423507/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ilham/.gradle/caches/transforms-4/0e5bcca1391f91aa167317ba2ef2e21a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/ilham/.gradle/caches/transforms-4/2175e7da2ed119e57a606ec2de795fd4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/ilham/.gradle/caches/transforms-4/a1ec9c2e901f96051dbd232747669666/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ilham/.gradle/caches/transforms-4/833f2b71369386fc2feae79aa89bf08a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/ilham/.gradle/caches/transforms-4/ada6b7d120ac0d083613afa2a440503b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/ilham/.gradle/caches/transforms-4/191838a800b7113a625815909664ceef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/ilham/.gradle/caches/transforms-4/0088827676efcff1534a7daab9377429/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ilham/.gradle/caches/transforms-4/b5f7c3606a87b6b58ae88d812d51061e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ilham/.gradle/caches/transforms-4/297d03ec39a47eb2d97a51f3f18bec66/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/ilham/.gradle/caches/transforms-4/0352d36272a52536910f4d2780a5602d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/ilham/.gradle/caches/transforms-4/fa07a25327b0966477d8e0ead9c82544/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ilham/.gradle/caches/transforms-4/eb41bb92ab02a81d78f3f44b3dada4bc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/ilham/.gradle/caches/transforms-4/7d66fc934517362995744780bf97abbe/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ilham/.gradle/caches/transforms-4/2dc99475c9bbbc595690db0477f4c35d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/ilham/.gradle/caches/transforms-4/8922fe453edb6d69ef8173e2daf31c0a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/ilham/.gradle/caches/transforms-4/a74d1eaff26ed3dc042a55f1a57febb2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/ilham/.gradle/caches/transforms-4/3637a49e910093cf108b936f79c206c8/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/ilham/.gradle/caches/transforms-4/bb6d14249144bd4cc726900f8f35a529/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/ilham/.gradle/caches/transforms-4/89eaaf5c070d7cd6425052337fef8d87/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/ilham/.gradle/caches/transforms-4/3cd5752f877a684b34b382c467dd75cf/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/ilham/.gradle/caches/transforms-4/b83b6414a288787626114eab359c3d66/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/ilham/.gradle/caches/transforms-4/28c1b69535d95f3f24d3c786af62eb83/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ilham/.gradle/caches/transforms-4/ce1e0062d5ae64a96c076363781664f0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ilham/.gradle/caches/transforms-4/38488e70b048c616e6890a3c2ce104a4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ilham/.gradle/caches/transforms-4/9c2844896f65855863fe18c157d34606/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/ilham/.gradle/caches/transforms-4/5bcb2c8b70ee370aceba8b9508bbb399/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ilham/.gradle/caches/transforms-4/be8659897727c04283e97de719994637/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ilham/.gradle/caches/transforms-4/652284d30c5a76e21e06cd931c434a77/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/ilham/.gradle/caches/transforms-4/7235a46a0336c98d20e0918e4c238691/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ilham/.gradle/caches/transforms-4/bbeaa493efe3951ae57bf69439a9bab8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/ilham/.gradle/caches/transforms-4/b293d796a576ea61535c9573d8b89a83/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:6:5-65:19
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:6:5-65:19
+MERGED from [com.google.android.material:material:1.10.0] /home/ilham/.gradle/caches/transforms-4/d0d1a641f5d00bee582e8094ac0461e9/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] /home/ilham/.gradle/caches/transforms-4/d0d1a641f5d00bee582e8094ac0461e9/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ilham/.gradle/caches/transforms-4/0122f4a2b9fee2ad7dfaa44fa98070cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ilham/.gradle/caches/transforms-4/0122f4a2b9fee2ad7dfaa44fa98070cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ilham/.gradle/caches/transforms-4/9c2844896f65855863fe18c157d34606/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ilham/.gradle/caches/transforms-4/9c2844896f65855863fe18c157d34606/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:13:9-36
+	android:label
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:11:9-54
+	android:fullBackupContent
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:14:9-46
+	android:dataExtractionRules
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:8:9-65
+activity#com.example.notifrdv.appointment.AppointmentActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:18:13-60
+activity#com.example.notifrdv.currentAppointment.CurrentAppointmentActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:22:13-74
+activity#com.example.notifrdv.doctorProfile.DoctorProfileActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:26:13-64
+activity#com.example.notifrdv.home.HomeActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:30:13-46
+activity#com.example.notifrdv.login.LoginActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:34:13-48
+activity#com.example.notifrdv.login.RegisterActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:38:13-51
+activity#com.example.notifrdv.patientProfile.EditablePatientProfileActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:42:13-74
+activity#com.example.notifrdv.patientProfile.PatientProfileActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:46:13-66
+activity#com.example.notifrdv.patientRecords.PatientRecordsActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:50:13-66
+activity#com.example.notifrdv.WelcomeActivity
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:53:9-60:20
+	android:exported
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:55:13-36
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:54:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:56:13-59:29
+action#android.intent.action.MAIN
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:58:27-74
+meta-data#preloaded_fonts
+ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:62:9-64:57
+	android:resource
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml:63:13-43
+uses-sdk
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] /home/ilham/.gradle/caches/transforms-4/d0d1a641f5d00bee582e8094ac0461e9/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /home/ilham/.gradle/caches/transforms-4/d0d1a641f5d00bee582e8094ac0461e9/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ilham/.gradle/caches/transforms-4/0122f4a2b9fee2ad7dfaa44fa98070cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/ilham/.gradle/caches/transforms-4/0122f4a2b9fee2ad7dfaa44fa98070cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/ilham/.gradle/caches/transforms-4/fd30cc04480250cd28d8517c1057ba1a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/ilham/.gradle/caches/transforms-4/fd30cc04480250cd28d8517c1057ba1a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/ilham/.gradle/caches/transforms-4/202e901c02a03f6157d6d322a31b4f6a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/ilham/.gradle/caches/transforms-4/202e901c02a03f6157d6d322a31b4f6a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/ilham/.gradle/caches/transforms-4/2fda13bdb32d6353ab3672d78f423507/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/ilham/.gradle/caches/transforms-4/2fda13bdb32d6353ab3672d78f423507/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ilham/.gradle/caches/transforms-4/0e5bcca1391f91aa167317ba2ef2e21a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ilham/.gradle/caches/transforms-4/0e5bcca1391f91aa167317ba2ef2e21a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/ilham/.gradle/caches/transforms-4/2175e7da2ed119e57a606ec2de795fd4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/ilham/.gradle/caches/transforms-4/2175e7da2ed119e57a606ec2de795fd4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/ilham/.gradle/caches/transforms-4/a1ec9c2e901f96051dbd232747669666/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/ilham/.gradle/caches/transforms-4/a1ec9c2e901f96051dbd232747669666/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ilham/.gradle/caches/transforms-4/833f2b71369386fc2feae79aa89bf08a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ilham/.gradle/caches/transforms-4/833f2b71369386fc2feae79aa89bf08a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/ilham/.gradle/caches/transforms-4/ada6b7d120ac0d083613afa2a440503b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/ilham/.gradle/caches/transforms-4/ada6b7d120ac0d083613afa2a440503b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/ilham/.gradle/caches/transforms-4/191838a800b7113a625815909664ceef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/ilham/.gradle/caches/transforms-4/191838a800b7113a625815909664ceef/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/ilham/.gradle/caches/transforms-4/0088827676efcff1534a7daab9377429/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/ilham/.gradle/caches/transforms-4/0088827676efcff1534a7daab9377429/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ilham/.gradle/caches/transforms-4/b5f7c3606a87b6b58ae88d812d51061e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ilham/.gradle/caches/transforms-4/b5f7c3606a87b6b58ae88d812d51061e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ilham/.gradle/caches/transforms-4/297d03ec39a47eb2d97a51f3f18bec66/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ilham/.gradle/caches/transforms-4/297d03ec39a47eb2d97a51f3f18bec66/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/ilham/.gradle/caches/transforms-4/0352d36272a52536910f4d2780a5602d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/ilham/.gradle/caches/transforms-4/0352d36272a52536910f4d2780a5602d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/ilham/.gradle/caches/transforms-4/fa07a25327b0966477d8e0ead9c82544/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/ilham/.gradle/caches/transforms-4/fa07a25327b0966477d8e0ead9c82544/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ilham/.gradle/caches/transforms-4/eb41bb92ab02a81d78f3f44b3dada4bc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ilham/.gradle/caches/transforms-4/eb41bb92ab02a81d78f3f44b3dada4bc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/ilham/.gradle/caches/transforms-4/7d66fc934517362995744780bf97abbe/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/ilham/.gradle/caches/transforms-4/7d66fc934517362995744780bf97abbe/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ilham/.gradle/caches/transforms-4/2dc99475c9bbbc595690db0477f4c35d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ilham/.gradle/caches/transforms-4/2dc99475c9bbbc595690db0477f4c35d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ilham/.gradle/caches/transforms-4/8922fe453edb6d69ef8173e2daf31c0a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ilham/.gradle/caches/transforms-4/8922fe453edb6d69ef8173e2daf31c0a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/ilham/.gradle/caches/transforms-4/a74d1eaff26ed3dc042a55f1a57febb2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/ilham/.gradle/caches/transforms-4/a74d1eaff26ed3dc042a55f1a57febb2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/ilham/.gradle/caches/transforms-4/3637a49e910093cf108b936f79c206c8/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/ilham/.gradle/caches/transforms-4/3637a49e910093cf108b936f79c206c8/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/ilham/.gradle/caches/transforms-4/bb6d14249144bd4cc726900f8f35a529/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/ilham/.gradle/caches/transforms-4/bb6d14249144bd4cc726900f8f35a529/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/ilham/.gradle/caches/transforms-4/89eaaf5c070d7cd6425052337fef8d87/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/ilham/.gradle/caches/transforms-4/89eaaf5c070d7cd6425052337fef8d87/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/ilham/.gradle/caches/transforms-4/3cd5752f877a684b34b382c467dd75cf/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/ilham/.gradle/caches/transforms-4/3cd5752f877a684b34b382c467dd75cf/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/ilham/.gradle/caches/transforms-4/b83b6414a288787626114eab359c3d66/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/ilham/.gradle/caches/transforms-4/b83b6414a288787626114eab359c3d66/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/ilham/.gradle/caches/transforms-4/28c1b69535d95f3f24d3c786af62eb83/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/ilham/.gradle/caches/transforms-4/28c1b69535d95f3f24d3c786af62eb83/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ilham/.gradle/caches/transforms-4/ce1e0062d5ae64a96c076363781664f0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ilham/.gradle/caches/transforms-4/ce1e0062d5ae64a96c076363781664f0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ilham/.gradle/caches/transforms-4/38488e70b048c616e6890a3c2ce104a4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ilham/.gradle/caches/transforms-4/38488e70b048c616e6890a3c2ce104a4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ilham/.gradle/caches/transforms-4/9c2844896f65855863fe18c157d34606/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ilham/.gradle/caches/transforms-4/9c2844896f65855863fe18c157d34606/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/ilham/.gradle/caches/transforms-4/5bcb2c8b70ee370aceba8b9508bbb399/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/ilham/.gradle/caches/transforms-4/5bcb2c8b70ee370aceba8b9508bbb399/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ilham/.gradle/caches/transforms-4/be8659897727c04283e97de719994637/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ilham/.gradle/caches/transforms-4/be8659897727c04283e97de719994637/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ilham/.gradle/caches/transforms-4/652284d30c5a76e21e06cd931c434a77/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ilham/.gradle/caches/transforms-4/652284d30c5a76e21e06cd931c434a77/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ilham/.gradle/caches/transforms-4/7235a46a0336c98d20e0918e4c238691/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ilham/.gradle/caches/transforms-4/7235a46a0336c98d20e0918e4c238691/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ilham/.gradle/caches/transforms-4/bbeaa493efe3951ae57bf69439a9bab8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ilham/.gradle/caches/transforms-4/bbeaa493efe3951ae57bf69439a9bab8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/ilham/.gradle/caches/transforms-4/b293d796a576ea61535c9573d8b89a83/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/ilham/.gradle/caches/transforms-4/b293d796a576ea61535c9573d8b89a83/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ilham/Documents/Notif-RDV-main/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/ilham/.gradle/caches/transforms-4/8aa37a40e0b1a0e9a1d1d9e0a88b1238/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/ilham/.gradle/caches/transforms-4/7bed60fab7a891496120389d42b8ef58/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/ilham/.gradle/caches/transforms-4/36ce7a72871302f32d79019286e1bc56/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.notifrdv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.notifrdv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/ilham/.gradle/caches/transforms-4/15c9fbc66e73d7f350a7d7e1dcf43fe5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/ilham/.gradle/caches/transforms-4/43c4e49b893402da011ab80cb371604f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

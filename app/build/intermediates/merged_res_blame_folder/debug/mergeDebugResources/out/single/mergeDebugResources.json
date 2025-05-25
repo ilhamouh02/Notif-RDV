@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_rounded_vertical_calendar_item.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/rounded_vertical_calendar_item.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_stethoscope_black.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/stethoscope_black.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_patient_records_item.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_patient_records_item.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_rounded_button.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_arrow_back_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/arrow_back_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_appointment.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_appointment.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_editable_patient_profile.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_editable_patient_profile.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_patient_records.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_patient_records.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_add_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/add_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_edit_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/edit_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_register.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_home_activity_main_category_background.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/home_activity_main_category_background.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_stethoscope_white.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/stethoscope_white.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_rounded_background_profile_picture.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/rounded_background_profile_picture.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_home.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_search_bar.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/search_bar.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_gradient_background.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_patient_white.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/patient_white.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_patient_profile.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_patient_profile.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_default_profile_picture.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/default_profile_picture.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_cancel_appointment.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/cancel_appointment.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_doctor_profile.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_doctor_profile.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_welcome.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/font_aldrich.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/font/aldrich.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_doctor_white.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/doctor_white.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_medicine_black.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/medicine_black.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.notifrdv.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_arrow_right_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/arrow_right_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_welcome_screen_health_connect.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/welcome_screen_health_connect.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_card_patients_records.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/card_patients_records.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_vertical_calendar.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/vertical_calendar.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_exams_black.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/exams_black.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_arrow_down_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/arrow_down_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_home_item.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_home_item.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_card_appointment_scheduling.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/card_appointment_scheduling.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_arrow_up_icon.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/arrow_up_icon.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_card_appointment_history.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/card_appointment_history.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_start_appointment.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/start_appointment.png"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_status_bar.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/status_bar.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.notifrdv.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/layout_activity_current_appointment.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/layout/activity_current_appointment.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_date_background.xml.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/date_background.xml"
+    },
+    {
+        "merged": "com.example.notifrdv.app-debug-31:/drawable_scheduling_white.png.flat",
+        "source": "com.example.notifrdv.app-main-33:/drawable/scheduling_white.png"
+    }
+]
