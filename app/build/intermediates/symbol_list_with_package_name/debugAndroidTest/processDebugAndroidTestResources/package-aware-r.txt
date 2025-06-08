@@ -1,3 +1,0 @@
-com.example.notifrdv.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

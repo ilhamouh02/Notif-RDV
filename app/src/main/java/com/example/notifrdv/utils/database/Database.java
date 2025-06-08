@@ -1,5 +1,6 @@
 package com.example.notifrdv.utils.database;
 
+// Importations des classes Android pour la gestion de la base SQLite
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -8,19 +9,23 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Base64;
 import android.util.Log;
 
+// Importations pour la génération de sel et le hachage
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+// Importations pour les spécifications de clé et d'hachage
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
+// Classe singleton pour gérer la base de données SQLite
 public class Database extends SQLiteOpenHelper {
-    private static Database instance;
-    private static final String DATABASE_NAME = "notif_rdv.db";
-    private static final int DATABASE_VERSION = 1;
+    private static Database instance; // Instance unique de la base de données
+    private static final String DATABASE_NAME = "notif_rdv.db"; // Nom de la base de données
+    private static final int DATABASE_VERSION = 1; // Version de la base de données
 
+    // Récupère l'instance de la base de données (seulement après initialisation)
     public static synchronized Database getInstance() {
         if (instance == null) {
             throw new IllegalStateException("Database instance is not initialized. Call initializeInstance() first.");
@@ -28,6 +33,7 @@ public class Database extends SQLiteOpenHelper {
         return instance;
     }
 
+    // Initialise l'instance de la base de données avec un contexte
     public static synchronized void initializeInstance(Context context) {
         if (instance == null) {
             instance = new Database(context.getApplicationContext());
@@ -35,12 +41,14 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
+    // Constructeur privé pour le singleton
     private Database(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        // Crée la table des médecins avec des champs pour l'identifiant, le nom, l'email, le mot de passe haché, le sel et le chemin de l'image
         db.execSQL("CREATE TABLE doctors (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "name TEXT NOT NULL, " +
@@ -49,6 +57,7 @@ public class Database extends SQLiteOpenHelper {
                 "salt TEXT NOT NULL, " +
                 "picture_path TEXT)");
 
+        // Crée la table des patients avec des champs pour l'identifiant, le nom, la date de naissance, l'email, le numéro de téléphone, etc.
         db.execSQL("CREATE TABLE patients (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "name TEXT NOT NULL, " +
@@ -60,6 +69,7 @@ public class Database extends SQLiteOpenHelper {
                 "weight REAL, " +
                 "gender TEXT)");
 
+        // Crée la table des rendez-vous avec des champs pour l'identifiant, les IDs du patient et du médecin, les dates, etc.
         db.execSQL("CREATE TABLE appointments (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "patient_id INTEGER NOT NULL, " +
@@ -77,6 +87,7 @@ public class Database extends SQLiteOpenHelper {
                 "FOREIGN KEY(patient_id) REFERENCES patients(id), " +
                 "FOREIGN KEY(doctor_id) REFERENCES doctors(id))");
 
+        // Crée la table des prescriptions avec des champs pour l'identifiant, l'ID du rendez-vous, le nom du médicament, etc.
         db.execSQL("CREATE TABLE prescriptions (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "appointment_id INTEGER NOT NULL, " +
@@ -85,6 +96,7 @@ public class Database extends SQLiteOpenHelper {
                 "duration TEXT NOT NULL, " +
                 "FOREIGN KEY(appointment_id) REFERENCES appointments(id))");
 
+        // Crée la table des examens avec des champs pour l'identifiant, l'ID du rendez-vous, le type d'examen, etc.
         db.execSQL("CREATE TABLE examinations (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "appointment_id INTEGER NOT NULL, " +
@@ -93,6 +105,7 @@ public class Database extends SQLiteOpenHelper {
                 "exam_date INTEGER NOT NULL, " +
                 "FOREIGN KEY(appointment_id) REFERENCES appointments(id))");
 
+        // Crée la table des antécédents médicaux avec des champs pour l'identifiant, l'ID du patient, la condition, etc.
         db.execSQL("CREATE TABLE medical_history (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "patient_id INTEGER NOT NULL, " +
@@ -106,6 +119,7 @@ public class Database extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // Gère la mise à jour de la base de données si la version passe de 1 à 2
         if (oldVersion < 2) {
             db.execSQL("ALTER TABLE appointments ADD COLUMN medicines TEXT");
             db.execSQL("ALTER TABLE appointments ADD COLUMN exams TEXT");
@@ -121,6 +135,7 @@ public class Database extends SQLiteOpenHelper {
         Log.d("Database", "Base de données mise à jour de la version " + oldVersion + " à " + newVersion);
     }
 
+    // Génère un sel aléatoire de 16 octets pour sécuriser le hachage des mots de passe
     private String generateSalt() {
         SecureRandom random = new SecureRandom();
         byte[] salt = new byte[16];
@@ -128,9 +143,10 @@ public class Database extends SQLiteOpenHelper {
         return Base64.encodeToString(salt, Base64.DEFAULT).trim();
     }
 
+    // Hache un mot de passe avec un sel donné en utilisant PBKDF2WithHmacSHA1
     private String hashPassword(String password, String salt) {
         try {
-            int iterations = 10000;
+            int iterations = 10000; // Nombre d'itérations pour le hachage
             char[] chars = password.toCharArray();
             byte[] saltBytes = Base64.decode(salt, Base64.DEFAULT);
             PBEKeySpec spec = new PBEKeySpec(chars, saltBytes, iterations, 256);
@@ -143,6 +159,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
+    // Récupère le sel associé à un email de médecin
     public String getSaltByEmail(String email) {
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = null;
@@ -160,7 +177,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-    // Doctor methods
+    // Méthodes pour les médecins
     public long addDoctor(String name, String email, String password, String picturePath) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -316,7 +333,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-    // Patient methods
+    // Méthodes pour les patients
     public long addPatient(String name, int dateOfBirth, String email, String phoneNumber, String picturePath, double height, double weight, String gender) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -513,8 +530,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-
-    // Appointment methods
+    // Méthodes pour les rendez-vous
     public long addAppointment(Appointment appointment, long doctorId) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -680,7 +696,7 @@ public class Database extends SQLiteOpenHelper {
         Cursor cursor = null;
 
         try {
-            // Format current date as YYYYMMDD
+            // Formate la date actuelle au format YYYYMMDD
             Calendar cal = Calendar.getInstance();
             int currentDate = cal.get(Calendar.YEAR) * 10000 +
                     (cal.get(Calendar.MONTH) + 1) * 100 +
@@ -820,7 +836,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-    // Prescription methods
+    // Méthodes pour les prescriptions
     public long addPrescription(long appointmentId, String medicineName, String dosage, String duration) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -860,7 +876,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-    // Examination methods
+    // Méthodes pour les examens
     public long addExamination(long appointmentId, String examType, String result, int examDate) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -900,7 +916,7 @@ public class Database extends SQLiteOpenHelper {
         }
     }
 
-    // Medical History methods
+    // Méthodes pour les antécédents médicaux
     public long addMedicalHistory(long patientId, String condition, int diagnosisDate, String treatment) {
         SQLiteDatabase db = getWritableDatabase();
         try {
@@ -938,7 +954,5 @@ public class Database extends SQLiteOpenHelper {
         } finally {
             if (cursor != null) cursor.close();
         }
-
-
     }
 }

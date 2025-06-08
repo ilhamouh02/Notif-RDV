@@ -1,6 +1,0 @@
-com.example.notifrdv.test.app-jetified-annotation-experimental-1.3.0-0 /home/ilham/.gradle/caches/transforms-4/b293d796a576ea61535c9573d8b89a83/transformed/jetified-annotation-experimental-1.3.0/res
-com.example.notifrdv.test.app-jetified-core-1.5.0-1 /home/ilham/.gradle/caches/transforms-4/c7293e8cf14b85ee22687881a9d4bb55/transformed/jetified-core-1.5.0/res
-com.example.notifrdv.test.app-androidTest-2 /home/ilham/Documents/Notif-RDV-main/app/build/generated/res/resValues/androidTest/debug
-com.example.notifrdv.test.app-mergeDebugAndroidTestResources-3 /home/ilham/Documents/Notif-RDV-main/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.notifrdv.test.app-mergeDebugAndroidTestResources-4 /home/ilham/Documents/Notif-RDV-main/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.notifrdv.test.app-debugAndroidTest-5 /home/ilham/Documents/Notif-RDV-main/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

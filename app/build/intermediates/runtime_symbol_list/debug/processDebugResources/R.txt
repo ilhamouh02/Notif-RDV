@@ -3273,6 +3273,7 @@ int id disableIntraAutoTransition 0x7f0a00c3
 int id disablePostScroll 0x7f0a00c4
 int id disableScroll 0x7f0a00c5
 int id disjoint 0x7f0a00c6
+int id doctor_profile_activity_delete_button 0x7f0a0271
 int id doctor_profile_activity_doctor_email 0x7f0a00c7
 int id doctor_profile_activity_doctor_email_title 0x7f0a00c8
 int id doctor_profile_activity_doctor_name 0x7f0a00c9

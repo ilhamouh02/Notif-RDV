@@ -3274,6 +3274,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id doctor_profile_activity_delete_button
 id doctor_profile_activity_doctor_email
 id doctor_profile_activity_doctor_email_title
 id doctor_profile_activity_doctor_name
